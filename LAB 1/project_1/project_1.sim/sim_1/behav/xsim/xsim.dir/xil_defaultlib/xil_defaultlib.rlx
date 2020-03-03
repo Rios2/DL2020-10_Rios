@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+H:/DL2020-10_Rios/LAB 1/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+H:/DL2020-10_Rios/LAB 1/project_1/project_1.srcs/sources_1/new/11bit.sv,1583187047,systemVerilog,,H:/DL2020-10_Rios/LAB 1/project_1/project_1.srcs/sources_1/new/add.sv,,add3_4,,,,,,,,
+H:/DL2020-10_Rios/LAB 1/project_1/project_1.srcs/sources_1/new/11test.sv,1583187205,systemVerilog,,,,add3_4_test,,,,,,,,
+H:/DL2020-10_Rios/LAB 1/project_1/project_1.srcs/sources_1/new/8_bitBCD.sv,1583186956,systemVerilog,,,,bitBCD,,,,,,,,
+H:/DL2020-10_Rios/LAB 1/project_1/project_1.srcs/sources_1/new/add.sv,1583186714,systemVerilog,,H:/DL2020-10_Rios/LAB 1/project_1/project_1.srcs/sources_1/new/11test.sv,,add3,,,,,,,,
