@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Ivan/Desktop/DL202010_HCRI-master/Lab9/Lab9.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/Ivan/Desktop/DL202010_HCRI-master/Lab9/Lab9.srcs/sim_1/imports/Desktop/basys3_lab9.sv,1588045967,systemVerilog,,,,basys3_lab9,,,,,,,,
+C:/Users/Ivan/Desktop/DL202010_HCRI-master/Lab9/Lab9.srcs/sim_1/new/alu_test.sv,1588405120,systemVerilog,,,,alu_test,,,,,,,,
+C:/Users/Ivan/Desktop/DL202010_HCRI-master/Lab9/Lab9.srcs/sim_1/new/register_test.sv,1588395962,systemVerilog,,,,register_test,,,,,,,,
+C:/Users/Ivan/Desktop/DL202010_HCRI-master/Lab9/Lab9.srcs/sources_1/imports/new/alu.sv,1588404717,systemVerilog,,C:/Users/Ivan/Desktop/DL202010_HCRI-master/Lab9/Lab9.srcs/sim_1/new/alu_test.sv,,alu,,,,,,,,
+C:/Users/Ivan/Desktop/DL202010_HCRI-master/Lab9/Lab9.srcs/sources_1/imports/new/register.sv,1588059234,systemVerilog,,C:/Users/Ivan/Desktop/DL202010_HCRI-master/Lab9/Lab9.srcs/sim_1/new/alu_test.sv,,register,,,,,,,,
+C:/Users/Ivan/Desktop/DL202010_HCRI-master/Lab9/Lab9.srcs/sources_1/imports/new/top_lab9.sv,1588059621,systemVerilog,,C:/Users/Ivan/Desktop/DL202010_HCRI-master/Lab9/Lab9.srcs/sim_1/imports/Desktop/basys3_lab9.sv,,top_lab9,,,,,,,,
