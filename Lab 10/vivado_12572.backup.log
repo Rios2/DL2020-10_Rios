@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May  4 02:55:45 2020
+# Process ID: 12572
+# Current directory: C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4460 C:\Users\Ivan\Documents\GitHub\DL2020-10_Rios\Lab 10\lab_10.xpr
+# Log file: C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/vivado.log
+# Journal file: C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/lab_10' since last save.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sim_1/new/counter_test.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sim_1/new/sseg_4_TDM_test.sv'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 686.902 ; gain = 65.066
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May  4 02:58:42 2020...

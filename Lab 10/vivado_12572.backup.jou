@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May  4 02:55:45 2020
+# Process ID: 12572
+# Current directory: C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4460 C:\Users\Ivan\Documents\GitHub\DL2020-10_Rios\Lab 10\lab_10.xpr
+# Log file: C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/vivado.log
+# Journal file: C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.xpr}
+update_compile_order -fileset sources_1

@@ -17,32 +17,32 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.cache/wt [current_project]
-set_property parent.project_path C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.xpr [current_project]
+set_property webtalk.parent_dir {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.cache/wt} [current_project]
+set_property parent.project_path {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
+set_property ip_output_repo {c:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib -sv {
-  C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/sources_1/imports/new/add3.sv
-  C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/sources_1/imports/new/alu.sv
-  C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/sources_1/imports/new/an_decoder.sv
-  C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/sources_1/imports/new/bcd11.sv
-  C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/sources_1/imports/new/counter1.sv
-  C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/sources_1/imports/new/mux2.sv
-  C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/sources_1/imports/new/register.sv
-  C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/sources_1/imports/new/sseg_4_TDM.sv
-  C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/sources_1/imports/new/sseg_decoder.sv
-  C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/sources_1/imports/new/top_lab9.sv
-  C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/sources_1/imports/new/calc_lab10.sv
+  {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sources_1/imports/new/add3.sv}
+  {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sources_1/imports/new/alu.sv}
+  {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sources_1/imports/new/an_decoder.sv}
+  {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sources_1/imports/new/bcd11.sv}
+  {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sources_1/imports/new/counter1.sv}
+  {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sources_1/imports/new/mux2.sv}
+  {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sources_1/imports/new/register.sv}
+  {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sources_1/imports/new/sseg_4_TDM.sv}
+  {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sources_1/imports/new/sseg_decoder.sv}
+  {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sources_1/imports/new/top_lab9.sv}
+  {C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sources_1/imports/new/calc_lab10.sv}
 }
-read_verilog -library xil_defaultlib C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/sources_1/imports/new/mux4.v
+read_verilog -library xil_defaultlib {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/sources_1/imports/new/mux4.v}}
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
 # design are intentionally left as such for best results. Dcp files will be
@@ -51,26 +51,26 @@ read_verilog -library xil_defaultlib C:/Users/Ivan/Desktop/DL2020-10_Rios-master
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/switches.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/switches.xdc}}]
+read_xdc {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/switches.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/switches.xdc}}]
 
-read_xdc C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Desktop/btnC.xdc
-set_property used_in_implementation false [get_files C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Desktop/btnC.xdc]
+read_xdc {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Desktop/btnC.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Desktop/btnC.xdc}}]
 
-read_xdc C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Desktop/btnD.xdc
-set_property used_in_implementation false [get_files C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Desktop/btnD.xdc]
+read_xdc {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Desktop/btnD.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Desktop/btnD.xdc}}]
 
-read_xdc C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Desktop/btnU.xdc
-set_property used_in_implementation false [get_files C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Desktop/btnU.xdc]
+read_xdc {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Desktop/btnU.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Desktop/btnU.xdc}}]
 
-read_xdc C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Desktop/clock.xdc
-set_property used_in_implementation false [get_files C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Desktop/clock.xdc]
+read_xdc {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Desktop/clock.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Desktop/clock.xdc}}]
 
-read_xdc C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Desktop/led.xdc
-set_property used_in_implementation false [get_files C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Desktop/led.xdc]
+read_xdc {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Desktop/led.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Desktop/led.xdc}}]
 
-read_xdc C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Lab_8/sseg.xdc
-set_property used_in_implementation false [get_files C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.srcs/constrs_1/imports/Lab_8/sseg.xdc]
+read_xdc {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Lab_8/sseg.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.srcs/constrs_1/imports/Lab_8/sseg.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

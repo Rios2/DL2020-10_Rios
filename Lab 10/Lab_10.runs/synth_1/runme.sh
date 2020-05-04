@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.runs/synth_1'
+HD_PWD='C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

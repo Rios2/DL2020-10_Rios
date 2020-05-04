@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Ivan/Desktop/DL2020-10_Rios-master/Lab_10.runs/impl_1'
+HD_PWD='C:/Users/Ivan/Documents/GitHub/DL2020-10_Rios/Lab 10/lab_10.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
+/bin/touch .init_design.begin.rst
 EAStep vivado -log calc_lab10.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source calc_lab10.tcl -notrace
 
 

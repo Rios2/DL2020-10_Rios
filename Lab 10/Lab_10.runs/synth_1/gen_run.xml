@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1588541788">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1588579370">
   <File Type="PA-TCL" Name="calc_lab10.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="calc_lab10_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="calc_lab10_reports.tcl"/>
@@ -13,7 +13,7 @@
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/new/mux4.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/mux4.v"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/mux4.v"/>
         <Attr Name="ImportTime" Val="1583826972"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -22,7 +22,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/new/add3.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/add3.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/add3.sv"/>
         <Attr Name="ImportTime" Val="1583826972"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -31,7 +31,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/new/alu.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/alu.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/alu.sv"/>
         <Attr Name="ImportTime" Val="1588035098"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -40,7 +40,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/new/an_decoder.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/an_decoder.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/an_decoder.sv"/>
         <Attr Name="ImportTime" Val="1583826972"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -49,7 +49,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/new/bcd11.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/bcd11.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/bcd11.sv"/>
         <Attr Name="ImportTime" Val="1583826972"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -58,7 +58,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/new/counter1.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/Lab9/Lab9.srcs/sources_1/new/counter1.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/Lab9/Lab9.srcs/sources_1/new/counter1.sv"/>
         <Attr Name="ImportTime" Val="1588502923"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -67,7 +67,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/new/mux2.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/mux2.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/mux2.sv"/>
         <Attr Name="ImportTime" Val="1583826972"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -76,7 +76,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/new/register.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/register.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/register.sv"/>
         <Attr Name="ImportTime" Val="1588027546"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -85,7 +85,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/new/sseg_4_TDM.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/Lab9/Lab9.srcs/sources_1/new/sseg_4_TDM.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/Lab9/Lab9.srcs/sources_1/new/sseg_4_TDM.sv"/>
         <Attr Name="ImportTime" Val="1588505018"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -94,7 +94,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/new/sseg_decoder.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/sseg_decoder.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/sseg_decoder.sv"/>
         <Attr Name="ImportTime" Val="1583826972"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -103,7 +103,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/new/top_lab9.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/top_lab9.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/top_lab9.sv"/>
         <Attr Name="ImportTime" Val="1588048375"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -112,7 +112,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/new/calc_lab10.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/Lab9/Lab9.srcs/sources_1/new/calc_lab10.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/Lab9/Lab9.srcs/sources_1/new/calc_lab10.sv"/>
         <Attr Name="ImportTime" Val="1588505030"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -122,7 +122,7 @@
     <File Path="$PSRCDIR/sources_1/imports/new/sseg4.sv">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/sseg4.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/sseg4.sv"/>
         <Attr Name="ImportTime" Val="1583826972"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -132,7 +132,7 @@
     <File Path="$PSRCDIR/sources_1/imports/new/sseg4_manual.sv">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/sseg4_manual.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/Lab_8.srcs/sources_1/new/sseg4_manual.sv"/>
         <Attr Name="ImportTime" Val="1583826972"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -148,7 +148,7 @@
     <Filter Type="Constrs"/>
     <File Path="$PSRCDIR/constrs_1/imports/Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/switches.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/New Lab 8/Lab_8/switches.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/switches.xdc"/>
         <Attr Name="ImportTime" Val="1583826972"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -156,7 +156,7 @@
     </File>
     <File Path="$PSRCDIR/constrs_1/imports/Desktop/btnC.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../btnC.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/btnC.xdc"/>
         <Attr Name="ImportTime" Val="1588035294"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -164,7 +164,7 @@
     </File>
     <File Path="$PSRCDIR/constrs_1/imports/Desktop/btnD.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../btnD.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/btnD.xdc"/>
         <Attr Name="ImportTime" Val="1588035303"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -172,7 +172,7 @@
     </File>
     <File Path="$PSRCDIR/constrs_1/imports/Desktop/btnU.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../btnU.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Desktop/btnU.xdc"/>
         <Attr Name="ImportTime" Val="1588035311"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -180,7 +180,7 @@
     </File>
     <File Path="$PSRCDIR/constrs_1/imports/Desktop/clock.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../clock.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/clock.xdc"/>
         <Attr Name="ImportTime" Val="1588035329"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -188,7 +188,7 @@
     </File>
     <File Path="$PSRCDIR/constrs_1/imports/Desktop/led.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../led.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/led.xdc"/>
         <Attr Name="ImportTime" Val="1588035341"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -196,7 +196,7 @@
     </File>
     <File Path="$PSRCDIR/constrs_1/imports/Lab_8/sseg.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../DL202010_HCRI-master/New Lab 8/Lab_8/sseg.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/DL202010_HCRI-master/New Lab 8/Lab_8/sseg.xdc"/>
         <Attr Name="ImportTime" Val="1583826972"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
