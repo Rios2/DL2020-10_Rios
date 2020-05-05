@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Mon May  4 03:03:27 2020
+| Date         : Tue May  5 00:33:37 2020
 | Host         : DESKTOP-JA4MDDO running 64-bit major release  (build 9200)
 | Command      : report_utilization -file calc_lab10_utilization_synth.rpt -pb calc_lab10_utilization_synth.pb
 | Design       : calc_lab10

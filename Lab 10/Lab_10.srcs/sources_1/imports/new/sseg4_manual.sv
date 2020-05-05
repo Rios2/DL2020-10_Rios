@@ -5,7 +5,7 @@ module sseg4_manual(
     input [15:0] sw,
     output [6:0] seg,
     
-    output [15:0] led,
+    
     
     input clk,
     input btnC,

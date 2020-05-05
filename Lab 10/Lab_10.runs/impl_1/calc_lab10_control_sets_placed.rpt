@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Mon May  4 03:04:06 2020
+| Date         : Tue May  5 00:34:11 2020
 | Host         : DESKTOP-JA4MDDO running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file calc_lab10_control_sets_placed.rpt
 | Design       : calc_lab10
@@ -49,7 +49,7 @@ Table of Contents
 | No           | No                    | Yes                    |              20 |            6 |
 | No           | Yes                   | No                     |               0 |            0 |
 | Yes          | No                    | No                     |               0 |            0 |
-| Yes          | No                    | Yes                    |              24 |            9 |
+| Yes          | No                    | Yes                    |              24 |            8 |
 | Yes          | Yes                   | No                     |               0 |            0 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
@@ -61,7 +61,7 @@ Table of Contents
 |  Clock Signal  | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
 +----------------+---------------+------------------+------------------+----------------+
 |  clk_IBUF_BUFG | btnD_IBUF     | btnC_IBUF        |                3 |              8 |
-|  clk_IBUF_BUFG | btnU_IBUF     | btnC_IBUF        |                6 |             16 |
+|  clk_IBUF_BUFG | btnU_IBUF     | btnC_IBUF        |                5 |             16 |
 |  clk_IBUF_BUFG |               | btnC_IBUF        |                6 |             20 |
 +----------------+---------------+------------------+------------------+----------------+
 
